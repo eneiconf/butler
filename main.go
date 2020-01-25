@@ -1,9 +1,9 @@
 package main
 
 import (
-	a "butler/ambassador"
-	h "butler/homepage"
-	s "butler/speakers"
+	a "butler/internal/ambassador"
+	h "butler/internal/homepage"
+	s "butler/internal/speakers"
 	"encoding/json"
 	"fmt"
 	"github.com/gorilla/mux"
@@ -15,7 +15,7 @@ import (
 func getSpeakers(w http.ResponseWriter, r *http.Request) {
 	var speakers s.Speakers
 
-	jsonFile, err := os.Open("./jsons/speakers.json")
+	jsonFile, err := os.Open("./assets/jsons/speakers.json")
 	if err != nil {
 		fmt.Println(err)
 	}
@@ -35,7 +35,7 @@ func getSpeakers(w http.ResponseWriter, r *http.Request) {
 func getAmbassadors(w http.ResponseWriter, r *http.Request) {
 	var ambassadors a.Ambassadors
 
-	jsonFile, err := os.Open("./jsons/ambassadors.json")
+	jsonFile, err := os.Open("./assets/jsons/ambassadors.json")
 	if err != nil {
 		fmt.Println(err)
 	}
@@ -55,7 +55,7 @@ func getAmbassadors(w http.ResponseWriter, r *http.Request) {
 func getHomePage(w http.ResponseWriter, r *http.Request) {
 	var homepage h.HomePage
 
-	jsonFile, err := os.Open("./jsons/homepage.json")
+	jsonFile, err := os.Open("./assets/jsons/homepage.json")
 	if err != nil {
 		fmt.Println(err)
 	}
@@ -74,7 +74,7 @@ func getHomePage(w http.ResponseWriter, r *http.Request) {
 
 func getAmbassadorImg(w http.ResponseWriter, r *http.Request) {
 	name := (mux.Vars(r))["ambassador"]
-	localURL := "./images/ambassadors/" + name
+	localURL := "./assets/images/ambassadors/" + name
 	imgfile, err := os.Open(localURL)
 	if err != nil {
 		fmt.Println(err)
