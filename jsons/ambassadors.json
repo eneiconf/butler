@@ -1,0 +1,112 @@
+[
+  {
+    "university": "Universidade de Évora",
+    "elements": [
+      {
+        "name": "Miguel Maia",
+        "img": "/static/img/ambassadors/Evora_MiguelMaia.jpg",
+        "facebook": "miguel.maia.16547"
+      },
+      {
+        "name": "Diogo Solipa",
+        "img": "/static/img/ambassadors/Evora_DiogoSalipa.jpg",
+        "facebook": "diogo.solipa"
+      }
+    ]
+  },
+  {
+    "university": "Universidade Nova de Lisboa",
+    "elements": [
+      {
+        "name": "Leonardo Correia",
+        "img": "/static/img/ambassadors/Lisboa_LeonardoCorreia.png",
+        "facebook": "leonardo.correia.92317"
+      }
+    ]
+  },
+  {
+    "university": "Universidade dos Açores",
+    "elements": [
+      {
+        "name": "André Sousa",
+        "img": "/static/img/ambassadors/Acores_AndreSousa.jpg",
+        "facebook": "andre.sousa.58760"
+      }
+    ]
+  },
+  {
+    "university": "Instituto Superior Técnico",
+    "elements": [
+      {
+        "name": "José Afonso Garcia",
+        "img": "/static/img/ambassadors/IST_JoseAfonsoGarcia.jpg",
+        "facebook": "Joseafonsogarciaalves"
+      }
+    ]
+  },
+  {
+    "university": "Instituto Politécnico de Viseu",
+    "elements": [
+      {
+        "name": "João Pereira",
+        "img": "/static/img/ambassadors/Viseu_JoaoPereira.jpeg",
+        "facebook": "pedro.pereiraaa"
+      }
+    ]
+  },
+  {
+    "university": "Universidade de Aveiro",
+    "elements": [
+      {
+        "name": "Tomás Costa",
+        "img": "/static/img/ambassadors/Aveiro_TomasCosta.jpg",
+        "facebook": "tomasoliveira.costa"
+      },
+      {
+        "name": "Filipe Vale",
+        "img": "/static/img/ambassadors/Aveiro_FilipeVale.png",
+        "facebook": "FilipeMiguelVale"
+      }
+    ]
+  },
+  {
+    "university": "Universidade de Trás-os-Montes e Alto Douro",
+    "elements": [
+      {
+        "name": "João Gonçalves",
+        "img": "/static/img/ambassadors/UTAD_JoaoGoncalves.jpg",
+        "facebook": "o.joao.goncalves.2000"
+      }
+    ]
+  },
+  {
+    "university": "Instituto Politécnico de Viana do Castelo",
+    "elements": [
+      {
+        "name": "Benjamim Oliveira",
+        "img": "/static/img/ambassadors/VianaCastelo_BenjamimOliveira.png",
+        "facebook": "BMO003"
+      }
+    ]
+  },
+  {
+    "university": "Universidade de Coimbra",
+    "elements": [
+      {
+        "name": "Tiago Fernandes",
+        "img": "/static/img/ambassadors/Coimbra_TiagoFernandes.jpg",
+        "facebook": "tiago.fernandes.39545"
+      }
+    ]
+  },
+  {
+    "university": "Universidade do Algarve",
+    "elements": [
+      {
+        "name": "Ana Rocha",
+        "img": "/static/img/ambassadors/Algarve_AnaRocha.jpg",
+        "facebook": "ana.rocha.0"
+      }
+    ]
+  }
+]
